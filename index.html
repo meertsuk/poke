@@ -1,0 +1,73 @@
+<!DOCTYPE HTML>
+<html lang="en">
+  <head>
+   <meta charset="utf-8" />
+   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+   <link rel="stylesheet" href="styles.css" />
+   <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Finger+Paint&family=Short+Stack&display=swap" rel="stylesheet">
+
+   <title>Pokemon Search App</title>
+  </head>
+  <body>
+    <header>
+      <h1>Pokémon Search App</h1>
+    </header>
+    <main>
+      <div class="container">
+        <div class="search-div">
+         <label for="search-input">Enter Pokémon name or ID </label>
+         <input id="search-input" type="text" placeholder="Pikachu" required />
+         <button id="search-button">Search</button>
+        </div>
+        <div class="pokemon-info">
+         <div class="pokemon-main">
+          <h2 id="pokemon-name"></h2>
+          <p id="pokemon-id"></p>
+          <img id="sprite"/>
+          <p id="weight"></p>
+          <p id="height"></p>
+          
+         </div> 
+          <div id="types"></div>
+           <div class="stats-table">
+            <table>
+              <tr>
+                <th>Base</th>
+                <th>Stats</th>
+              </tr>
+              <tr>
+                <td><strong>HP:</strong></td>
+                <td id="hp"></td>
+              </tr>
+              <tr>
+                <td><strong>Attack:</strong></td>
+                <td id="attack"></td>
+              </tr>
+              <tr>
+                <td><strong>Defense:</strong></td>
+                <td id="defense"></td>
+              </tr>
+              <tr>
+                <td><strong>Special Attack:</strong></td>
+                <td id="special-attack"></td>
+              </tr>
+              <tr>
+                <td><strong>Special Defense:</strong></td>
+                <td id="special-defense"></td>
+              </tr>
+              <tr>
+                <td><strong>Speed:</strong></td>
+                <td id="speed"></td>
+              </tr>
+            </table>
+          </div>  
+        </div>
+      </div>
+      <p class="signature">coded by Meertsuk</p>
+    </main>
+
+  <script src="script.js"></script>
+  </body>
+</html>
