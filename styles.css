@@ -1,0 +1,121 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  height: 100%;
+  text-align: center;
+  background: #F2E70C;
+  font-family: "Finger Paint", serif;
+  color:#3B3448;
+}
+
+
+
+.container {
+  width: 70%;
+  height: 800px;
+  min-width: 350px;
+  max-width: 600px;
+  background-color: #BAF20C;
+  
+  margin: auto;
+  border-radius: 30px;
+  box-shadow: 2px 2px 2px darkgreen;
+  border: 1px solid green
+}
+
+.search-div{
+  display: flex;
+  flex-direction: column;
+ width: 70%;
+ margin: auto;
+ justify-content: space-around;
+ align-items: center;
+ height: 17%;
+ 
+}
+
+button {
+   font-family: "Finger Paint", serif;
+   font-size:1.2rem;
+   font-weight: 600;
+   width:50%;
+   border-radius: 20px;
+   background: #F2AF0C;
+   color:#3B3448;
+   box-shadow: 2px 1px 1px darkgreen;
+   border: none;
+}
+
+input {
+  width: 100%;
+  font-family: "Finger Paint", serif;
+   font-size:1.4rem;
+   text-align: center;
+   border-radius: 20px;
+   background: #8DB72B;
+   box-shadow: 2px 1px 1px darkgreen;
+   border: none;
+}
+
+.pokemon-info {
+  
+  height: 650px;
+
+}
+
+
+
+.pokemon-main {
+  border: double #8DB72B;
+  width: 90%;
+  height: 300px;
+  margin: auto;
+  box-shadow: 1px 1px 1px darkgreen;
+  border-radius: 5px;
+  margin-bottom: 5px;
+}
+
+
+#types {
+ 
+  height: 60px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.stats-table {
+  display: flex;
+  justify-content: center;
+ 
+}
+
+
+
+table {
+
+  color:#3B3448;
+  width: 90%;
+  font-size: 1.2rem;
+  background-color: #8DB72B;
+  border-radius: 5px;
+ 
+}
+
+td {
+   border: solid #8DB72B;
+   background-color: #F2CB0C;
+   border-radius: 8px;
+}
+
+#hp, #attack, #defense, #special-attack, #special-defense, #speed{
+  background-color: #F2AF0C;
+}
+
+
+.signature {
+  color: brown;
+  opacity: 60%;
+}
