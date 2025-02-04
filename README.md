@@ -1,0 +1,1 @@
+educational project for freecodecamp certification
